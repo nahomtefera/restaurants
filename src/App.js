@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/navbar/navbar';
 import FontAwesome from 'react-fontawesome';
+import Home from './components/home/home';
 
 import './App.css';
 
@@ -50,18 +51,17 @@ class App extends Component {
 
     return (
       <div className="App">
-         {
+        
+        {
+          //If the screen is mobile 
+          //we will show the bar for the navbar
           this.state.responsive === "mobile"
-          ? <FontAwesome 
-              className="open-navbar-icon" 
-              name="bars" 
-              onClick={this.toggleNavbar}
-            />     
+          ? <FontAwesome className="open-navbar-icon" name="bars" onClick={this.toggleNavbar} />     
           : ""
         }
-        <Navbar 
-          showNavbar={this.state.showNavbar} 
-          toggleNavbar={this.toggleNavbar}/>  
+
+        <Navbar showNavbar={this.state.showNavbar} toggleNavbar={this.toggleNavbar}/>  
+        <Home />
       </div>
     );
   }

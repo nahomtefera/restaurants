@@ -1,5 +1,7 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /*Raleway*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700'); /*Playfair Display*/
+
 
 .App {
   overflow-x: hidden;
@@ -11,4 +13,33 @@
   margin-right: 2em;
   margin-top: 50px;
   text-align: right;    
+}
+
+
+/* Floating Animation */
+
+.floating{
+  float: left;
+  -webkit-animation-name: Floatingx;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-name: Floating;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@-webkit-keyframes Floatingx{
+  from {-webkit-transform:translate(0, 0px);}
+  65% {-webkit-transform:translate(0, 15px);}
+  to {-webkit-transform: translate(0, -0px);    }    
+}
+  
+@-moz-keyframes Floating{
+  from {-moz-transform:translate(0, 0px);}
+  65% {-moz-transform:translate(0, 15px);}
+  to {-moz-transform: translate(0, -0px);}    
 }
