@@ -8,6 +8,7 @@ class Navbar extends Component {
         super(props);
 
         this.state = {
+            showNavbar: this.props.showNavbar,
             pages: [
                 {
                     name:"Home",
@@ -31,18 +32,42 @@ class Navbar extends Component {
                 }
             ]
         }
+
+        this.toggleNavbar = this.toggleNavbar.bind(this);
     }
+
+    toggleNavbar() {
+        if(this.state.showNavbar){
+            this.setState({showNavbar:false})
+        }else{
+            this.setState({showNavbar:true})            
+        }
+        this.props.toggleNavbar()
+    }
+
+    // Will update state.showNavbar if showNavbar props change
+    componentWillReceiveProps(nextProps) {
+        if (nextProps.showNavbar !== this.state.showNavbar) {
+          this.setState({ showNavbar: nextProps.showNavbar });
+        }
+    }
+
 
     render(){
         return(
-            <div className="navbar-container">
-                <FontAwesome 
-                    name="bars"
-                    
-                />
-                <ul className="navbar-list-container">
-                    {this.state.pages.map(page=>{
-                        return <li className="navbar-list-item">{page.name}</li>
+            <div className={this.state.showNavbar ? "navbar-container navbar-container-responsive" : "navbar-container"} >
+                {this.state.showNavbar ?
+                    <FontAwesome 
+                        className="navbar-toggle-icon" 
+                        name="times" 
+                        onClick={this.toggleNavbar}
+                    />
+                    : ""
+                }
+
+                <ul className={this.state.showNavbar ? "navbar-list-container navbar-list-container-responsive slideIn" : "navbar-list-container"}>
+                    {this.state.pages.map((page, index)=>{
+                        return <li key={index} className="navbar-list-item">{page.name}</li>
                     })}
                 </ul>
             </div>
@@ -50,4 +75,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default Navbar;  

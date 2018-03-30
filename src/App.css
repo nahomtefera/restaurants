@@ -1,2 +1,14 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /*Raleway*/
+
 .App {
+  overflow-x: hidden;
+}
+
+.open-navbar-icon {
+  display: block;
+  font-size: 1.5em;
+  margin-right: 2em;
+  margin-top: 50px;
+  text-align: right;    
 }
