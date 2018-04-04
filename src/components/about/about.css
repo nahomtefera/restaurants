@@ -31,7 +31,7 @@
 }
 
 .about-content-text {
-    padding: 20px;
+    padding: 1.5em;
     font-weight: 300;
     font-size: 1.8em;
 }
@@ -43,7 +43,10 @@
 }
 
 .about-main-image {
-    max-width: 100%;   
+    width: 550px;    
+    display: block;
+    margin: 30px auto;
+    max-width: 90%;
 }
 
 .about-image-container {

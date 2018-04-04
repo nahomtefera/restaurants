@@ -10,17 +10,16 @@ class About extends Component {
             <div className="about-container">
                 <div className="about-content-container">
                     <div className="about-main-image-container">
-                        <img className="about-main-image" src={require('../../images/restaurant-table-small.png')} alt=""/>
+                        <img className="about-main-image" src={require('../../images/about-img-2.png')} alt=""/>
                     </div>
                     <div className="about-content">
-                        <h1 className="about-content-title">Our Story</h1>
                         <p className="about-content-text">
 
-                            A La Turca Restaurant (US Restaurant Management) offers delicious dining and takeout to San Francisco, CA.
+                            • A La Turca Restaurant (US Restaurant Management) offers delicious dining and takeout to San Francisco, CA.
                             <br/><br/>
-                            A La Turca Restaurant (US Restaurant Management) is a cornerstone in the San Francisco community and has been recognized for its outstanding Mediterranean cuisine, excellent service and friendly staff.
+                            • A La Turca Restaurant (US Restaurant Management) is a cornerstone in the San Francisco community and has been recognized for its outstanding Mediterranean cuisine, excellent service and friendly staff.
                             <br/><br/>
-                            Our Mediterranean restaurant is known for its modern interpretation of classic dishes and its insistence on only using high quality fresh ingredients.
+                            • Our Mediterranean restaurant is known for its modern interpretation of classic dishes and its insistence on only using high quality fresh ingredients.
 
                         </p>
                     </div>

@@ -32,6 +32,12 @@
     padding: 25px;    
 }
 
+.menu-category:hover {
+    -webkit-box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 1);
+    -moz-box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 1);
+    box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 1);
+}
+
 .menu-category:hover .menu-category-title {
     background: #2ab4ff;
     color: white;
@@ -83,6 +89,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 1em;
+    cursor: pointer;
     text-transform: uppercase;
     width: 250px;
     border-radius: 10px;
@@ -102,4 +109,18 @@
 .menu-order-online:hover {
     color: #2ab4ff;
     background: white;
+    -webkit-box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 1);
+    -moz-box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 1);
+    box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 1);
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .menu-category-title {
+        background: #2ab4ff;
+        color: white;
+    }
+    
+
 }
