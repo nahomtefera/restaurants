@@ -8,7 +8,7 @@ class Home extends Component {
         
         return(
             <div className="home-container">
-                <img className="logo-name" src={require('../../images/restaurant-logo-black-white.png')} alt="restaurant logo" />
+                <img className="logo-name" src={require('../../images/restaurant-logo-3.png')} alt="restaurant logo" />
 
                 <div className="arrow-container">
                     <FontAwesome 
