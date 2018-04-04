@@ -1,5 +1,6 @@
 .navbar-container {
-
+    position: absolute;
+    top: 0;
 }
 
 .navbar-list-container {
@@ -15,6 +16,7 @@
     cursor: pointer;
     font-family: "Raleway", sans-serif;
     font-size: 1.4em;
+    font-weight: 500;
     color: white;
 }
 
@@ -27,7 +29,9 @@
 }
 
 .open-navbar-icon {
-    color: #434343;
+    color: white;
+    position: absolute;
+    right: 0;
 }
 
 /* CSS Responsive code for navbar */

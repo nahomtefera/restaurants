@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './components/navbar/navbar';
 import FontAwesome from 'react-fontawesome';
 import Home from './components/home/home';
+import About from './components/about/about';
 
 import './App.css';
 
@@ -62,6 +63,7 @@ class App extends Component {
 
         <Navbar showNavbar={this.state.showNavbar} toggleNavbar={this.toggleNavbar}/>  
         <Home />
+        <About />
       </div>
     );
   }

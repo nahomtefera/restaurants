@@ -1,29 +1,39 @@
 .home-container {
     width: 100%;
+    max-width: 100%;
     height: 100vh;
-    background: url(../../images/restaurant-2.jpg);
+    background: linear-gradient(
+        rgba(155, 120, 210, 0.25), rgba(255, 255, 255, 1)), url(../../images/restaurant-5.jpeg);
     background-size: cover;
     background-position: fixed;
-    position: absolute;
+    position: relative;
     top: 0;
     z-index: -1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
 }
 
 .restaurant-name {
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Berkshire Swash', cursive;
     color: white;    
     font-weight: 700;
     font-size: 5em;
 }
 
+.logo-name {
+    max-width: 90%;
+    margin-top: 17em;
+}
+
+.arrow-container{
+    text-align: center;
+}
+
 .arrow-down-icon {
-    color: white;
-    position: absolute;
-    bottom: 1em;
+    color: #434343;
+    /* position: absolute;
+    bottom: 1em; */
+    float: none!important;
     font-size: 3em;
     right: 50%;
 }

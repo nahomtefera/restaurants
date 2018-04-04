@@ -8,11 +8,14 @@ class Home extends Component {
         
         return(
             <div className="home-container">
-                <h1 className="restaurant-name">Restaurant Name</h1>
-                <FontAwesome 
-                        className="arrow-down-icon floating" 
-                        name="chevron-down" 
-                />
+                <img className="logo-name" src={require('../../images/restaurant-logo-black-white.png')} alt="restaurant logo" />
+
+                <div className="arrow-container">
+                    <FontAwesome 
+                            className="arrow-down-icon floating" 
+                            name="chevron-down" 
+                    />
+                </div>
             </div>
         )
     }
