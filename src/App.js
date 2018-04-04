@@ -4,6 +4,7 @@ import FontAwesome from 'react-fontawesome';
 import Home from './components/home/home';
 import About from './components/about/about';
 import Location from './components/location/location';
+import Menu from './components/menu/menu';
 
 import './App.css';
 
@@ -66,6 +67,7 @@ class App extends Component {
         <Home />
         <About />
         <Location />
+        <Menu />
         <br/>
                 <br/><br/><br/><br/>
       </div>
