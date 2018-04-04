@@ -174,7 +174,7 @@ class Menu extends Component {
             <div className="menu-container">
                 
                 <div className="menu-img-container">
-                    <img className="menu-img" src={require('../../images/menu-img.png')} alt="menu banner"/>
+                    <img className="menu-img" src={require('../../images/menu-img-3.png')} alt="menu banner"/>
                 </div>
 
                 <div className="menu-scroll">
@@ -198,6 +198,12 @@ class Menu extends Component {
                             )
                         })}
                     </div>
+
+
+                </div>
+
+                <div className="menu-order-online">
+                        click to order online
                 </div>
 
             </div>

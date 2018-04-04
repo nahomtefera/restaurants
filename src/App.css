@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700'); /*Playfair Display*/
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 
+body {
+  background: #fafafa;
+}
 
 .App {
   overflow-x: hidden;

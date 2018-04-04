@@ -9,7 +9,7 @@
 }
 
 .menu-container-x-scroll {
-    width: 4000px;
+    width: 2200px;
     overflow-x: scroll;
 }
 
@@ -19,13 +19,14 @@
 }
 
 .menu-img {
-    max-width: 98%;
+    width: 550px;
+    max-width: 90%;
 }
 
 .menu-category-title {
     text-transform: capitalize;
     text-align: center;
-    background: #f2f2f2;
+    background: #fff3f3;
     color: #2ab4ffd0;
     margin-top: 0;
     padding: 25px;    
@@ -37,7 +38,7 @@
 }
 
 .menu-category-y-scroll {
-    height: 450px;
+    height: 350px;
     max-height: 90vh;
     overflow-y: scroll;
     padding: 20px;
@@ -63,16 +64,42 @@
 }
 
 .menu-category {
-    width: 400px;
+    width: 350px;
     max-width: 90vw;
     margin: 30px;
     display: inline-block;
     border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 15px;
     overflow: hidden;
     padding: 0;
     background: #fff;
     -webkit-box-shadow: -4px 3px 44px -14px rgba(204, 204, 204, 0.75);
     -moz-box-shadow: -4px 3px 44px -14px rgba(204, 204, 204, 0.75);
     box-shadow: -4px 3px 44px -14px rgba(204, 204, 204, 0.75);
+}
+
+.menu-order-online {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 250px;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid #2ab4ff; */
+    background: #2ab4ff;
+    color: white;
+    margin-top: 40px;
+    box-sizing: border-box;
+    -webkit-box-shadow: -4px 3px 44px -14px rgba(204, 204, 204, 0.75);
+    -moz-box-shadow: -4px 3px 44px -14px rgba(204, 204, 204, 0.75);
+    box-shadow: -4px 3px 44px -14px rgba(204, 204, 204, 0.75);
+}
+
+.menu-order-online:hover {
+    color: #2ab4ff;
+    background: white;
 }

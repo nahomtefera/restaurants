@@ -11,7 +11,8 @@
 }
 
 .location-img {
-    max-width: 98%;
+    width: 550px;    
+    max-width: 90%;
 }
 
 .location-map-details-container {
