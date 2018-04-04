@@ -26,14 +26,15 @@
 
 .location-map-container {
     flex-grow: 2;        
-    height: 600px;
+    min-height: 600px;
     display: inline-block;
 }
 
 
 .location-map {
     width: 90%;
-    height: 600px;
+    min-height: 600px;
+    height: 100%;
 }
 
 .location-details-container {
@@ -75,6 +76,11 @@
     }
     
     .location-map-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .location-map {
         width: 100%;
     }
 

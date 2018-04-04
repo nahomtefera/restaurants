@@ -9,9 +9,13 @@ class Location extends Component {
             <div className="location-container">
                 <div className="location-img-container">
                     <img className="location-img" src={require('../../images/location-img-2.png')} alt="location banner"/>
-
                 </div>
+                
                 <div className="location-map-details-container">
+
+                    <div className="location-map-container" >
+                        <iframe className="location-map" src="https://goo.gl/G4KsHU" frameborder="0" allowfullscreen></iframe>
+                    </div>
 
                     <div className="location-details-container">
                         <div className="location-details">
@@ -39,11 +43,6 @@ class Location extends Component {
                             </p>
                         </div>
                     </div>
-
-                    <div className="location-map-container" >
-                        <iframe className="location-map" src="https://goo.gl/G4KsHU" frameborder="0" allowfullscreen></iframe>
-                    </div>
-
                     
                 </div>
 
