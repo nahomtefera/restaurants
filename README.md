@@ -6,3 +6,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   1. Clone this repo and npm install the packages.
   2. Type 'npm start' in main directory
   
+## Demo
+  http://www.nahomendale.com/restaurant
