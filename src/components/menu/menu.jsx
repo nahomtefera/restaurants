@@ -203,7 +203,7 @@ class Menu extends Component {
                 </div>
 
                 <div className="menu-order-online">
-                        click to order online
+                        <a target="_blank" href="https://www.beyondmenu.com/29738/san-francisco/a-la-turca-restaurant--us-restaurant-management--san-francisco-94109.aspx">click to order online</a>
                 </div>
 
             </div>
