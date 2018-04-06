@@ -178,28 +178,30 @@ class Menu extends Component {
                 </div>
 
                 <div className="menu-scroll">
-                    <div className="menu-container-x-scroll">
-                        {this.state.menu.map((item, index) => {
-                            return (
-                                <div className="menu-category" key={index}>
-                                    <h1 className="menu-category-title">{item.category}</h1>
-                                    <div className="menu-category-y-scroll">
-                                        {item.items.map((plate, index) => {
-                                            return(
-                                                <div className="menu-plate" key={index}>
-                                                    <h2 className="menu-plate-name">{plate.name}</h2>
-                                                    <h3 className="menu-plate-description">{plate.description}</h3>
-                                                    <h3 className="menu-plate-price">{"$" + plate.price}</h3>
-                                                </div>
-                                            )
-                                        })}
+                    <div className="menu-remove-x-scroll">
+                        <div className="menu-container-x-scroll">
+                            {this.state.menu.map((item, index) => {
+                                return (
+                                    <div className="menu-category" key={index}>
+                                        <div className="menu-category-remove-y-scroll">
+                                            <h1 className="menu-category-title">{item.category}</h1>
+                                            <div className="menu-category-y-scroll">
+                                                {item.items.map((plate, index) => {
+                                                    return(
+                                                        <div className="menu-plate" key={index}>
+                                                            <h2 className="menu-plate-name">{plate.name}</h2>
+                                                            <h3 className="menu-plate-description">{plate.description}</h3>
+                                                            <h3 className="menu-plate-price">{"$" + plate.price}</h3>
+                                                        </div>
+                                                    )
+                                                })}
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            )
-                        })}
+                                )
+                            })}
+                        </div>
                     </div>
-
-
                 </div>
 
                 <div className="menu-order-online">

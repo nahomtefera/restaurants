@@ -4,13 +4,20 @@
 
 .menu-scroll {
     font-family: 'Raleway', sans-serif;
-    overflow: scroll;
+    overflow: hidden;
     vertical-align:top;
+}
+
+.menu-remove-x-scroll {
+    overflow-x: scroll;
+    margin-bottom: -17px;
 }
 
 .menu-container-x-scroll {
     width: 2200px;
+    margin-bottom: -17px;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .menu-img-container {
@@ -41,6 +48,11 @@
 .menu-category:hover .menu-category-title {
     background: #f7746e;
     color: white;
+}
+
+.menu-category-remove-y-scroll {
+    margin-right: -17px;
+
 }
 
 .menu-category-y-scroll {

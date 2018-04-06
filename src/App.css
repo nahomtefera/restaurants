@@ -19,13 +19,13 @@ body {
   text-align: right;    
 }
 
-::-webkit-scrollbar
+/* ::-webkit-scrollbar
 {
-  width: 0px;  /* for vertical scrollbars */
-  height: 0px; /* for horizontal scrollbars */
-}
+  width: 0px; 
+  height: 0px; 
+} */
 
-::-webkit-scrollbar-track
+/* ::-webkit-scrollbar-track
 {
   background: rgba(0, 0, 0, 0.0);
 }
@@ -33,7 +33,7 @@ body {
 ::-webkit-scrollbar-thumb
 {
   background: rgba(0, 0, 0, 0.0);
-}
+} */
 
 /* Floating Animation */
 
