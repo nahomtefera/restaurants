@@ -2,6 +2,7 @@
     position: absolute;
     top: 0;
     z-index: 9;
+    padding: 20px 96px;
 }
 
 .navbar-list-container {
@@ -17,7 +18,7 @@
     cursor: pointer;
     font-family: "Raleway", sans-serif;
     font-size: 1.4em;
-    font-weight: 500;
+    font-weight: 300;
     color: white;
 }
 
@@ -57,6 +58,7 @@
         display: none;
         overflow: hidden;
         z-index: 3;
+        padding: 0;
     }
 
     .navbar-container-responsive {

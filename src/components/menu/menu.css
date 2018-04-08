@@ -10,6 +10,7 @@
 
 .menu-remove-x-scroll {
     overflow-x: scroll;
+    overflow-y: hidden;
     margin-bottom: -17px;
 }
 
@@ -84,7 +85,7 @@
 .menu-category {
     width: 350px;
     max-width: 90vw;
-    margin: 30px;
+    margin: 30px 30px 70px 10px;
     display: inline-block;
     border-top-left-radius: 15px;
     border-radius: 15px;
