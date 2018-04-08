@@ -6,7 +6,7 @@ class Location extends Component {
 
     render(){
         return(
-            <div className="location-container">
+            <div id="location" className="location-container">
                 <div className="location-img-container">
                     <img className="location-img" src={require('../../images/location-img-3.png')} alt="location banner"/>
                 </div>

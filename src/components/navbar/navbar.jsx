@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './navbar.css';
 import FontAwesome from 'react-fontawesome';
+import Scrollchor from 'react-scrollchor';
+
 
 class Navbar extends Component {
 
@@ -12,24 +14,20 @@ class Navbar extends Component {
             pages: [
                 {
                     name:"Home",
-                    url: ""
-                },
-                {
-                    name:"About",
-                    url: ""
+                    url: "home"
                 },
                 {
                     name:"Menu",
-                    url: ""
+                    url: "menu"
                 },
                 {
-                    name:"Reservations",
-                    url: ""
+                    name:"Location",
+                    url: "location"
                 },
                 {
-                    name:"Gallery",
-                    url: ""
-                }
+                    name:"About",
+                    url: "about"
+                },
             ]
         }
 
@@ -52,6 +50,13 @@ class Navbar extends Component {
         }
     }
 
+    scrollToAnchor(e) {
+        let fullPath = e.target.href;
+        let linkPosition = fullPath.indexOf("#");
+        let link = fullPath.slice(linkPosition);
+
+        document.getElementById("#menu").scrollIntoView() 
+    }
 
     render(){
         return(
@@ -67,7 +72,7 @@ class Navbar extends Component {
 
                 <ul className={this.state.showNavbar ? "navbar-list-container navbar-list-container-responsive slideIn" : "navbar-list-container"}>
                     {this.state.pages.map((page, index)=>{
-                        return <li key={index} className="navbar-list-item">{page.name}</li>
+                        return <li key={index} onClick={this.toggleNavbar} className="navbar-list-item"><Scrollchor className="navbar-list-link" to={page.url} >{page.name}</Scrollchor></li>
                     })}
                 </ul>
             </div>

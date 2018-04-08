@@ -171,7 +171,7 @@ class Menu extends Component {
 
     render(){
         return(
-            <div className="menu-container">
+            <div id="menu" className="menu-container">
                 
                 <div className="menu-img-container">
                     <img className="menu-img" src={require('../../images/menu-img-3.png')} alt="menu banner"/>

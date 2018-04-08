@@ -7,7 +7,7 @@ class Home extends Component {
     render(){
         
         return(
-            <div className="home-container">
+            <div id="home" className="home-container">
                 <img className="logo-name" src={require('../../images/restaurant-logo-3.png')} alt="restaurant logo" />
 
                 <div className="arrow-container">

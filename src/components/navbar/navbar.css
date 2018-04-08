@@ -20,6 +20,12 @@
     color: white;
 }
 
+.navbar-list-link {
+    text-decoration: none;
+    color: white;
+    
+}
+
 .navbar-toggle-icon {
     display: none;
     font-size: 1.5em;
