@@ -14,7 +14,7 @@ class Navbar extends Component {
             pages: [
                 {
                     name:"Home",
-                    url: "home"
+                    url: ""
                 },
                 {
                     name:"Menu",
@@ -48,14 +48,6 @@ class Navbar extends Component {
         if (nextProps.showNavbar !== this.state.showNavbar) {
           this.setState({ showNavbar: nextProps.showNavbar });
         }
-    }
-
-    scrollToAnchor(e) {
-        let fullPath = e.target.href;
-        let linkPosition = fullPath.indexOf("#");
-        let link = fullPath.slice(linkPosition);
-
-        document.getElementById("#menu").scrollIntoView() 
     }
 
     render(){

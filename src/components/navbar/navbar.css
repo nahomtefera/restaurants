@@ -1,6 +1,7 @@
 .navbar-container {
     position: absolute;
     top: 0;
+    z-index: 9;
 }
 
 .navbar-list-container {
@@ -38,6 +39,7 @@
     color: white;
     position: absolute;
     right: 0;
+    z-index: 2;
 }
 
 /* CSS Responsive code for navbar */
@@ -53,21 +55,23 @@
 
     .navbar-container {
         display: none;
-        overflow: hidden
+        overflow: hidden;
+        z-index: 3;
     }
 
     .navbar-container-responsive {
         display: block;
-        position: absolute;        
+        position: fixed;        
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         /* background: #222f3e; */
-        background: -webkit-linear-gradient(110deg, #222f3e 60%, #294e92 60%);
+        /* background: -webkit-linear-gradient(110deg, #222f3e 60%, #294e92 60%);
         background: -o-linear-gradient(110deg, #222f3e 60%, #294e92 60%);
         background: -moz-linear-gradient(110deg, #222f3e 60%, #294e92 60%);
-        background: linear-gradient(110deg, #222f3e 60%, #294e92 60%);       
+        background: linear-gradient(110deg, #222f3e 60%, #294e92 60%);     */
+        background: #222f3e;   
     }
 
 

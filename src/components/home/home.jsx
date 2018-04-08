@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './home.css';
 import FontAwesome from 'react-fontawesome';
+import Scrollchor from 'react-scrollchor';
 
 class Home extends Component {
 
@@ -11,10 +12,13 @@ class Home extends Component {
                 <img className="logo-name" src={require('../../images/restaurant-logo-3.png')} alt="restaurant logo" />
 
                 <div className="arrow-container">
-                    <FontAwesome 
-                            className="arrow-down-icon floating" 
-                            name="chevron-down" 
-                    />
+                    <Scrollchor className="navbar-list-link" to="menu" >
+                        <FontAwesome 
+                                className="arrow-down-icon floating" 
+                                name="chevron-down" 
+                        />
+                    </Scrollchor>
+                    
                 </div>
             </div>
         )
