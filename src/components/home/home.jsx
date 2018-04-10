@@ -9,7 +9,9 @@ class Home extends Component {
         
         return(
             <div id="home" className="home-container">
-                <img className="logo-name" src={require('../../images/restaurant-logo-4.png')} alt="restaurant logo" />
+                <div className="logo-container">
+                    <img className="logo-name" src={require('../../images/restaurant-logo-minimal.png')} alt="restaurant logo" />
+                </div>
 
                 <div className="arrow-container">
                     <Scrollchor className="navbar-list-link" to="menu" >
