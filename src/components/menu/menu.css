@@ -34,8 +34,8 @@
 .menu-category-title {
     text-transform: capitalize;
     text-align: center;
-    background: #fff3f3;
-    color: #f7746e;
+    background: #ffaf40;
+    color: white;
     margin-top: 0;
     padding: 25px;    
 }
@@ -47,7 +47,7 @@
 }
 
 .menu-category:hover .menu-category-title {
-    background: #f7746e;
+    background: #ff9f1a;
     color: white;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .menu-plate-name {
-    color: #f7746e;
+    color: #ffaf40;
 }
 
 .menu-plate-price {
@@ -87,8 +87,6 @@
     max-width: 90vw;
     margin: 30px 30px 70px 10px;
     display: inline-block;
-    border-top-left-radius: 15px;
-    border-radius: 15px;
     overflow: hidden;
     padding: 0;
     background: #fff;
@@ -110,7 +108,7 @@
     max-width: 90%;
     margin: 0 auto;
     /* border: 1px solid #2ab4ff; */
-    background: #f7746e;
+    background: #ffaf40;
     color: white;
     margin-top: 40px;
     box-sizing: border-box;
@@ -133,13 +131,13 @@
 
 .menu-order-online:hover a {
     text-decoration: none;
-    color: #f7746e;
+    color: #ffaf40;
 }
 
 @media only screen and (max-width: 1024px) {
     
     .menu-category-title {
-        background: #f7746e;
+        background: #ffaf40;
         color: white;
     }
     
