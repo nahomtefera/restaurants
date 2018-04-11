@@ -1,4 +1,5 @@
 .about-container {
+    margin-top: 80px;
     padding-top: 50px;
     overflow: auto;
     background-size: cover;
@@ -33,7 +34,8 @@
 .about-content-text {
     padding: 1.5em;
     font-weight: 300;
-    font-size: 1.8em;
+    font-family: 'Raleway';
+    font-size: 1.5em;
 }
 
 .about-main-image-container {

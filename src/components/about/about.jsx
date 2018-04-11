@@ -10,7 +10,7 @@ class About extends Component {
             <div id="about" className="about-container">
                 <div className="about-content-container">
                     <div className="about-main-image-container">
-                        <img className="about-main-image" src={require('../../images/about-img.png')} alt=""/>
+                        <img className="about-main-image" src={require('../../images/about-img-minimal.png')} alt=""/>
                     </div>
                     <div className="about-content">
                         <p className="about-content-text">

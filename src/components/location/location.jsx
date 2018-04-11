@@ -8,7 +8,7 @@ class Location extends Component {
         return(
             <div id="location" className="location-container">
                 <div className="location-img-container">
-                    <img className="location-img" src={require('../../images/location-img-3.png')} alt="location banner"/>
+                    <img className="location-img" src={require('../../images/location-logo-minimal.png')} alt="location banner"/>
                 </div>
                 
                 <div className="location-map-details-container">

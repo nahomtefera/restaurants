@@ -1,0 +1,79 @@
+.all-reviews-container {
+    margin: 5em auto;
+    padding: 2em 0;
+    width: 100%;
+    overflow: hidden;
+    min-height: 400px;
+    /* background: white;
+    -webkit-box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 0.23);
+    -moz-box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 0.23);
+    box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 0.23); */
+}
+
+.review-container {
+    width: 700px;
+    box-sizing: border-box;
+    padding: 20px 25px 25px 25px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 30px;
+    background: white;
+    color: #333;
+    max-width: 85%;
+    margin: 0 auto;
+    -webkit-box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 0.93);
+    -moz-box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 0.93);
+    box-shadow: -4px 3px 44px -14px rgba(120, 120, 120, 0.93);
+}
+
+.reviews-title {
+    text-align: center;
+    color: #bd2020;
+    margin: 1em;
+    font-family: "Raleway", sans-serif;
+    font-size: 3em;    
+}
+
+.review-name {
+    text-align: center;
+    font-weight: bold;
+    color: #bd2020;
+}
+
+.review-comment {
+    font-weight: bold;
+}
+
+.review-date {
+    text-align: left;
+    color: #8b8b8b;
+}
+
+.yelp-stars-container {
+    text-align: center;
+}
+
+.yelp-stars {
+    color: #ff5600;
+    margin: 9px 5px 0px 5px;
+}
+
+.reviews-nav {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.reviews-nav-icons {
+    font-size: 1.5em;
+    color: #eabdbe;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.reviews-active-nav {
+    color: #bd2020;
+}
+
+.hide {
+    display: none;
+}

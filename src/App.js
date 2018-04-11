@@ -5,6 +5,7 @@ import Home from './components/home/home';
 import About from './components/about/about';
 import Location from './components/location/location';
 import Menu from './components/menu/menu';
+import FeaturedReviews from './components/featuredReviews/featuredReviews';
 import Footer from './components/footer/footer';
 
 import './App.css';
@@ -66,10 +67,12 @@ class App extends Component {
 
         <Navbar showNavbar={this.state.showNavbar} toggleNavbar={this.toggleNavbar}/>  
         <Home />
+        <About />
         <Menu />
         <Location />
-        <About />
         <br/>
+        <FeaturedReviews />
+        
                 <br/><br/><br/><br/>
         <Footer />
 
